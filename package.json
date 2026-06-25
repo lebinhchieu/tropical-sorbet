@@ -1,0 +1,55 @@
+{
+  "name": "tropical-sorbet",
+  "displayName": "Tropical Sorbet",
+  "description": "Bright coral & citrus candy on cream — light & dark variants for long, happy coding sessions.",
+  "version": "0.0.1",
+  "publisher": "ChieuLe",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "tropical",
+    "sorbet",
+    "coral",
+    "citrus",
+    "candy",
+    "light theme",
+    "dark theme"
+  ],
+  "galleryBanner": {
+    "color": "#FFF6EC",
+    "theme": "light"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tropical Sorbet",
+        "uiTheme": "vs",
+        "path": "./themes/tropical-sorbet-color-theme.json"
+      },
+      {
+        "label": "Tropical Sorbet Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tropical-sorbet-night-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lebinhchieu/tropical-sorbet"
+  },
+  "homepage": "https://github.com/lebinhchieu/tropical-sorbet#readme",
+  "bugs": {
+    "url": "https://github.com/lebinhchieu/tropical-sorbet/issues"
+  },
+  "scripts": {
+    "package": "vsce package"
+  }
+}

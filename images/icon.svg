@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Background circle - warm cream -->
+  <circle cx="64" cy="64" r="60" fill="#FFF6EC"/>
+  <!-- Sorbet scoops stacked -->
+  <!-- Bottom scoop - lime -->
+  <ellipse cx="64" cy="88" rx="34" ry="22" fill="#5E9C2F"/>
+  <!-- Middle scoop - tangerine -->
+  <ellipse cx="64" cy="68" rx="30" ry="20" fill="#E8722A"/>
+  <!-- Top scoop - coral -->
+  <ellipse cx="64" cy="50" rx="26" ry="18" fill="#FF6B5C"/>
+  <!-- Highlight on top scoop -->
+  <ellipse cx="58" cy="44" rx="9" ry="5" fill="#FFAA99" opacity="0.6"/>
+  <!-- Waffle cone -->
+  <polygon points="64,95 42,128 86,128" fill="#E8A700"/>
+  <polygon points="64,95 42,128 64,125" fill="#C87B00" opacity="0.4"/>
+  <!-- Cone grid lines -->
+  <line x1="53" y1="95" x2="45" y2="128" stroke="#C87B00" stroke-width="1.2" opacity="0.5"/>
+  <line x1="64" y1="95" x2="64" y2="128" stroke="#C87B00" stroke-width="1.2" opacity="0.5"/>
+  <line x1="75" y1="95" x2="83" y2="128" stroke="#C87B00" stroke-width="1.2" opacity="0.5"/>
+  <line x1="42" y1="112" x2="86" y2="112" stroke="#C87B00" stroke-width="1.2" opacity="0.5"/>
+  <line x1="44" y1="120" x2="84" y2="120" stroke="#C87B00" stroke-width="1.2" opacity="0.5"/>
+  <!-- Watermelon candy sprinkle -->
+  <circle cx="52" cy="47" r="3" fill="#E5397A"/>
+  <!-- Grape candy sprinkle -->
+  <circle cx="76" cy="52" r="2.5" fill="#A24BC9"/>
+  <!-- Aqua candy sprinkle -->
+  <circle cx="70" cy="41" r="2" fill="#0E9488"/>
+  <!-- Border ring -->
+  <circle cx="64" cy="64" r="60" fill="none" stroke="#EBD7C2" stroke-width="2"/>
+</svg>
