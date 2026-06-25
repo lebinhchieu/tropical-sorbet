@@ -8,7 +8,7 @@
     
     "editor.background":                        "#2B1E1B",
     "editor.foreground":                        "#F5E6D8",
-    "editorLineNumber.foreground":              "#5A4035",
+    "editorLineNumber.foreground":              "#9A8070",
     "editorLineNumber.activeForeground":        "#FFA552",
     "editorCursor.foreground":                  "#FF7A6B",
     "editorCursor.background":                  "#2B1E1B",
@@ -323,7 +323,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#5A4035",
+        "foreground": "#9A8070",
         "fontStyle": "italic"
       }
     },
@@ -751,7 +751,7 @@
     "number":                 "#C792EA",
     "regexp":                 "#FFA552",
     "operator":               "#FF7A6B",
-    "comment":                { "foreground": "#5A4035", "italic": true },
+    "comment":                { "foreground": "#9A8070", "italic": true },
     "namespace":              "#46D7C4",
     "macro":                  "#FFD45E",
     "selfKeyword":            { "foreground": "#FF6FB5", "italic": true },
