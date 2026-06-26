@@ -619,8 +619,7 @@
         "invalid.deprecated"
       ],
       "settings": {
-        "foreground": "#2B1E1B",
-        "background": "#FF6FB5"
+        "foreground": "#FF6FB5"
       }
     },
     {
