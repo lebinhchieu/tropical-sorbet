@@ -725,6 +725,16 @@
       "settings": {
         "foreground": "#E5397A"
       }
+    },
+    {
+      "name": "Flow",
+      "scope": [
+        "keyword.control.export",
+        "keyword.control.flow"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+      }
     }
   ],
 
