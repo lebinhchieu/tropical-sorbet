@@ -2,7 +2,7 @@
   "name": "tropical-sorbet",
   "displayName": "Tropical Sorbet",
   "description": "Bright coral & citrus candy on cream — light & dark variants for long, happy coding sessions.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "ChieuLe",
   "license": "MIT",
   "icon": "images/icon.png",
@@ -43,6 +43,11 @@
         "label": "Tropical Sorbet Day",
         "uiTheme": "vs",
         "path": "./themes/tropical-sorbet-day-color-theme.json"
+      },
+      {
+        "label": "Prancy Octopus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/prancy-octopus-color-theme.json"
       }
     ]
   },

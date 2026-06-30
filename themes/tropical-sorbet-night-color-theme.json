@@ -741,7 +741,6 @@
 
   "semanticTokenColors": {
     "class":                  "#46D7C4",
-    "class.declaration":      { "foreground": "#46D7C4", "bold": true },
     "interface":              "#46D7C4",
     "enum":                   "#46D7C4",
     "enumMember":             "#C792EA",
