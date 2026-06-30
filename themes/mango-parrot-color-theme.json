@@ -488,7 +488,8 @@
         "meta.tag.attributes"
       ],
       "settings": {
-        "foreground": "#2A6DC0"
+        "foreground": "#857A68",
+        "fontStyle": "italic"
       }
     },
     {
