@@ -1,0 +1,7 @@
+id = "mango-parrot"
+name = "Mango Parrot"
+version = "0.0.1"
+schema_version = 1
+authors = ["Chieu Le"]
+description = "Mango Parrot — a bright citrus light theme, ported from the Tropical Sorbet VS Code theme family."
+repository = "https://github.com/lebinhchieu/tropical-sorbet"
