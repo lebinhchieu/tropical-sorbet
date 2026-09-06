@@ -2,6 +2,12 @@
 
 All notable changes to Tropical Sorbet are documented here.
 
+## [1.2.3] — 2026-09-06
+
+### Fixed
+- Tropical Sorbet / Tropical Sorbet Day: `scrollbar.shadow` was an opaque, light border color instead of a dark, semi-transparent one, causing visible banding instead of a smooth fade at panel/scroll edges.
+- Tropical Sorbet / Tropical Sorbet Day: unified 16 chrome-panel background keys (sidebar, editor widgets, quick-pick, dropdown, panel, notifications, tabs, etc.) that used a slightly different cream shade than `editor.background`, causing a visible seam where they sit adjacent (e.g. Quick Open's file list next to its own preview pane).
+
 ## [1.0.0] — 2026-06-25
 
 ### Added
