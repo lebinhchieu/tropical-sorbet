@@ -1,0 +1,38 @@
+# git-delta config for Mango Parrot (light) — diff chrome only (plus/minus
+# lines, file/hunk headers, line numbers). Code-content syntax highlighting
+# uses delta's bundled "GitHub" theme rather than a custom Mango Parrot one
+# — see delta/README.md for why, and for how to install this.
+#
+# Line/emphasis background tints are the same blend() math (18%/35% opacity
+# over #FCF8F1) used for DiffAdd/DiffDelete/Visual in the Neovim port, so a
+# diff looks the same whether viewed in Neovim or in a delta pager.
+
+[delta]
+	light = true
+	true-color = auto
+	syntax-theme = GitHub
+	navigate = true
+
+	plus-style = syntax "#D8E3CB"
+	plus-emph-style = syntax bold "#B6CFA6"
+	minus-style = syntax "#F4D6CC"
+	minus-emph-style = syntax bold "#EDB5A8"
+	whitespace-error-style = "#3E372E" "#F4D6CC"
+
+	file-style = "#AA600A" bold
+	file-decoration-style = "#E7DBC8" ul
+
+	hunk-header-style = file line-number syntax
+	hunk-header-file-style = "#0B7F76" bold
+	hunk-header-line-number-style = "#7C7056"
+	hunk-header-decoration-style = "#E7DBC8" box
+
+	line-numbers = true
+	line-numbers-plus-style = "#33821C"
+	line-numbers-minus-style = "#D23921"
+	line-numbers-zero-style = "#C8BBA4"
+	line-numbers-left-style = "#7C7056"
+	line-numbers-right-style = "#7C7056"
+
+	commit-style = "#AA600A" bold
+	commit-decoration-style = "#E7DBC8" ul
