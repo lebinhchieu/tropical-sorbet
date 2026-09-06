@@ -31,4 +31,4 @@ git:
 
 ## Palette notes
 
-Plus/minus line backgrounds reuse the same blend (18%/35% opacity over `#FCF8F1`) as `DiffAdd`/`DiffDelete`/`Visual` in the [Neovim port](../neovim/), so a diff looks the same in a terminal pager as it does inside Neovim.
+Plus/minus line backgrounds reuse the same blend (18%/35% opacity over `#FCF8F1`) as `DiffAdd`/`DiffDelete`/`Visual` in the [Neovim port](https://github.com/lebinhchieu/nvim-theme), so a diff looks the same in a terminal pager as it does inside Neovim.
