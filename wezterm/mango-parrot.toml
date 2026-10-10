@@ -1,0 +1,85 @@
+# Mango Parrot (light) — WezTerm color scheme.
+# ANSI palette is copied 1:1 from terminal.* in themes/mango-parrot-color-theme.json.
+
+[metadata]
+name = "Mango Parrot"
+author = "Chieu Le"
+origin_url = "https://github.com/lebinhchieu/tropical-sorbet"
+
+[colors]
+foreground = "#3E372E"
+background = "#FCF8F1"
+
+cursor_bg = "#E8820E"
+cursor_fg = "#FCF8F1"
+cursor_border = "#E8820E"
+
+# VS Code uses #E8820E35 (21% alpha); pre-blended over the background so it
+# doesn't depend on WezTerm's alpha handling.
+selection_fg = "#3E372E"
+selection_bg = "#F8DFC2"
+
+scrollbar_thumb = "#E7DBC8"
+split = "#E7DBC8"
+visual_bell = "#F0E6D6"
+# Grape, so a pending dead-key/IME composition is distinguishable from the mango cursor.
+compose_cursor = "#9A40CF"
+
+# Copy-mode search and quick-select mirror VS Code's find colors
+# (#9E7A0060 current match, #9E7A0030 other matches), pre-blended like selection.
+copy_mode_active_highlight_bg = { Color = "#D9C996" }
+copy_mode_active_highlight_fg = { Color = "#3E372E" }
+copy_mode_inactive_highlight_bg = { Color = "#EAE0C4" }
+copy_mode_inactive_highlight_fg = { Color = "#3E372E" }
+quick_select_label_bg = { Color = "#E8820E" }
+quick_select_label_fg = { Color = "#FCF8F1" }
+quick_select_match_bg = { Color = "#D9C996" }
+quick_select_match_fg = { Color = "#3E372E" }
+
+ansi = [
+  "#3E372E", # black
+  "#DB3B22", # red
+  "#368A1E", # green
+  "#9E7A00", # yellow
+  "#2A6DC0", # blue
+  "#9A40CF", # magenta
+  "#0C8A80", # cyan
+  "#A99C86", # white
+]
+brights = [
+  "#857A68", # black
+  "#CE1D6C", # red
+  "#5DAF3A", # green
+  "#C9A020", # yellow
+  "#4A8FE0", # blue
+  "#B966E8", # magenta
+  "#2CAAAA", # cyan
+  "#FCF8F1", # white
+]
+
+# `background` only applies to the retro tab bar; the fancy tab bar takes its
+# background from window_frame (set in mango-parrot.lua).
+[colors.tab_bar]
+background = "#F0E6D6"
+inactive_tab_edge = "#E7DBC8"
+inactive_tab_edge_hover = "#C8BBA4"
+
+[colors.tab_bar.active_tab]
+bg_color = "#FCF8F1"
+fg_color = "#3E372E"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#F0E6D6"
+fg_color = "#A99C86"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#E7DBC8"
+fg_color = "#3E372E"
+
+[colors.tab_bar.new_tab]
+bg_color = "#F0E6D6"
+fg_color = "#A99C86"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#E7DBC8"
+fg_color = "#3E372E"

@@ -1,0 +1,30 @@
+# Mango Parrot (light) — Herdr UI theme.
+# Herdr has no theme files: paste this into ~/.config/herdr/config.toml,
+# replacing your existing [theme] section. Colors come from
+# themes/mango-parrot-color-theme.json; catppuccin-latte is only the fallback
+# for anything Herdr adds that isn't overridden here.
+
+[theme]
+name = "catppuccin-latte"
+
+[theme.custom]
+panel_bg = "#FCF8F1"
+sidebar_bg = "#F0E6D6"
+active_row_bg = "#E7DBC8"
+# Same pre-blended selection as the WezTerm port (#E8820E at 21% over #FCF8F1).
+selection_bg = "#F8DFC2"
+surface0 = "#F0E6D6"
+surface1 = "#E7DBC8"
+surface_dim = "#F0E6D6"
+overlay0 = "#C8BBA4"
+overlay1 = "#A99C86"
+text = "#3E372E"
+subtext0 = "#857A68"
+accent = "#E8820E"
+peach = "#E8820E"
+mauve = "#9A40CF"
+green = "#368A1E"
+yellow = "#9E7A00"
+red = "#DB3B22"
+blue = "#2A6DC0"
+teal = "#0C8A80"
