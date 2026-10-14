@@ -2,6 +2,11 @@
 
 All notable changes to Tropical Sorbet are documented here.
 
+## [1.2.4] — 2026-10-14
+
+### Fixed
+- Mango Parrot: `gitDecoration.ignoredResourceForeground` darkened from `#C8BBA4` (1.79:1 contrast) to `#968A76` (3.20:1) so git-ignored files in the sidebar are readable.
+
 ## [1.2.3] — 2026-09-06
 
 ### Fixed
