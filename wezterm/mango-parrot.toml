@@ -1,5 +1,7 @@
 # Mango Parrot (light) — WezTerm color scheme.
-# ANSI palette is copied 1:1 from terminal.* in themes/mango-parrot-color-theme.json.
+# ANSI palette is copied 1:1 from terminal.* in themes/mango-parrot-color-theme.json,
+# except brights[7]: the VS Code value (#FCF8F1) equals the background, which hides
+# anything drawn in bright white (e.g. lazygit's selected-commit graph lines).
 
 [metadata]
 name = "Mango Parrot"
@@ -54,7 +56,7 @@ brights = [
   "#4A8FE0", # blue
   "#B966E8", # magenta
   "#2CAAAA", # cyan
-  "#FCF8F1", # white
+  "#3E372E", # white
 ]
 
 # `background` only applies to the retro tab bar; the fancy tab bar takes its
