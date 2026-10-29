@@ -2,6 +2,11 @@
 
 All notable changes to Tropical Sorbet are documented here.
 
+## [1.2.5] — 2026-10-29
+
+### Fixed
+- Tropical Sorbet / Tropical Sorbet Day / Mango Parrot: the active tab had the same background as the tab bar, so it was indistinguishable in VS Code's new layout. The tab bar, inactive tabs, tab borders and hover color are now slightly darker, and inactive tab text is darker for contrast. The active tab keeps the editor background.
+
 ## [1.2.4] — 2026-10-14
 
 ### Fixed
